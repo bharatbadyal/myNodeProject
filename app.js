@@ -6,3 +6,10 @@ console.log(name)
 console.log(a+b)
 // console.log(global)
 console.log(this)
+
+if(name == "Node "){
+    console.log("Nothing")
+}
+else{
+    console.log("Else ")
+}
