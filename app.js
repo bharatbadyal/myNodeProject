@@ -13,3 +13,13 @@ if(name == "Node "){
 else{
     console.log("Else ")
 }
+
+let total = 0;
+for(let a =0 ; a <10; a++){
+    total += a;
+}
+console.log(total)
+
+for(let i =0; i<10;i++){
+    console.log("i = ",i)
+}
