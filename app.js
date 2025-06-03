@@ -23,3 +23,31 @@ console.log(total)
 for(let i =0; i<10;i++){
     console.log("i = ",i)
 }
+
+let firstName = "Bharat"
+let lastName = "Sharma"
+
+let fullName = firstName + " " + lastName
+console.log(fullName)
+
+// array 
+let arr = [ 5,10,2,0,1]
+
+console.log("The given array values are:", arr)
+console.log("The value at the index[1]: ", arr[1])
+
+// array with multiple types of permitive values
+
+let person = ["Bharat",28,5.11,true,["Hatli",184152,"kathua"]]
+
+console.log(person[4][1])
+
+// Objects
+
+let obj1 ={
+    "name" :"Bharat",
+    "age" : 28,
+    "bool": true
+}
+
+console.log(obj1.name)
