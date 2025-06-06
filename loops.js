@@ -30,3 +30,6 @@ for(let i =0; i < arr1.length; i++){
 
 console.log("Even Values in given Array are: ",evenValue);
 console.log("Odd Values in given Array are: ",oddValue);
+
+
+
