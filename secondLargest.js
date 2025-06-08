@@ -19,14 +19,33 @@
 // console.log("The second Largest No. is: ",secondLargestNo(arr))
 
 
-// Lets Practice Loop in Loop
+// // Lets Practice Loop in Loop
 
-for(let i=0; i<1; i++){
-    for(let j=0; j<2; j++){
-        for(let k=0; k<3;k++){
+// for(let i=0; i<1; i++){
+//     for(let j=0; j<2; j++){
+//         for(let k=0; k<3;k++){
             
-        console.log("The value of i for j for k is: ",i,j,k)
+//         console.log("The value of i for j for k is: ",i,j,k)
 
-        }
-        }
+//         }
+//         }
+// }
+
+//experimental code
+
+// for(let i=0; i<5;i++){
+//     for(let j =0; j<i;j++){
+//         console.log(i,j);
+//     }
+// }
+
+// for(let i=0; i<3;i++){
+//     for(let j =i; j>=0;j--){
+//         console.log(i,j);
+//     }
+// }
+for(let i=3; i>0;i--){
+    for(let j =0; j<i;j++){
+        console.log(i,j);
+    }
 }
