@@ -49,3 +49,31 @@ for(let i=3; i>0;i--){
         console.log(i,j);
     }
 }
+
+// 03. Write a function that will return the largest no in given array.
+
+function lasrgestNo(arr){
+    let largest = -Infinity
+    for(let i =0 ; i<arr.length; i++){
+        if(arr[i] > largest){
+            largest = arr[i];
+        }
+    }
+    return largest;
+}
+
+let arr2 = [2,4,6,1,113,-13,15,17]
+console.log("The largest no in array is : ",lasrgestNo(arr2))
+
+// 04. Wirte a function that will return smallest no in given array.
+let smallest = Infinity;
+function smallestNo(arr){
+    for( let i = 0; i<arr.length; i++){
+        if(arr[i]< smallest){
+            smallest = arr[i];
+        }
+    }
+    return smallest;
+}
+
+console.log('The smallest no in array is: ', smallestNo(arr2))
