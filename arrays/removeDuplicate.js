@@ -11,16 +11,15 @@ function removeDuplicate(arr){
     return x+1;
 }
 
-console.log(removeDuplicate(arr))
 
-let smallest = Infinity;
-function smallestNo(arr){
-    for( let i = 0; i<arr.length; i++){
-        if(arr[i]< smallest){
-            smallest = arr[i];
+let arr1 = [2,3,4,4,5,5,5]
+function rmDu(arr1){
+    let x=0;
+    for(let i=0; i<arr1.length;i++){
+        if(arr1[i]>arr1[x]){
+            x++;
+            arr1[x]=arr[i];
         }
     }
-    return smallest;
+    return x+1;
 }
-
-console.log('The smallest no in array is: ', smallestNo(arr2))
