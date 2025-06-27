@@ -78,13 +78,3 @@ function smallestNo(arr){
 
 console.log('The smallest no in array is: ', smallestNo(arr2))
 
-
-function sumOfNo(a,b){
-    return a+b;
-}
-
-let a = 12;
-let b = 21;
-
-let sumOfVariables = sumOfNo(a,b)
-console.log(sumOfVariables)
