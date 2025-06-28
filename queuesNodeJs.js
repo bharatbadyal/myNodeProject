@@ -5,7 +5,11 @@ setTimeout(()=>{
 })
 
 Promise.resolve().then(()=>{
-    console.log("Next Tick 1");
+    console.log("Promise 1");
+})
+
+process.nextTick(()=>{
+    console.log("Next Tick 2");
 })
 
 setTimeout(()=>{
@@ -13,7 +17,7 @@ setTimeout(()=>{
 })
 
 process.nextTick(()=>{
-    console.log("Next Tick 2");
+    console.log("Next Tick 1");
 })
 
 for(let i =0; i<10000000; i++){}
